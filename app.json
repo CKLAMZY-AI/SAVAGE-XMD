@@ -1,0 +1,153 @@
+
+{
+  "name": "BWM-XMD-QUANTUM",
+  "description": "Best WhatsApp bot developed by SAVAGE BOYS",
+  "keywords": ["bot", "node", "baileys", "whatsapp"],
+  "logo": "https://files.catbox.moe/jqvqj2.jpeg",
+  "repository": "https://github.com/ekitale/maths-project",
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "PREFIX": {
+      "description": "Choose your prefix for your bot",
+      "value": "#",
+      "required": true
+    },
+    "AUTO_REJECT_CALL": {
+      "description": "Enter yes for your bot to auto reject calls",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_BIO": {
+      "description": "Enter yes for your bot to auto update bio",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_READ": {
+      "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
+      "value": "no",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Name for your bot",
+      "value": "CKLAMZY-XMD",
+      "required": false
+    },
+    "BOT_IMAGE": {
+      "description": "Image URL for your bot menu",
+      "value": "https://files.catbox.moe/jqvqj2.jpeg",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "Type yes for public mode or no for private mode",
+      "value": "no",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Enter your Heroku API key to be able to control your vars",
+      "value": "",
+      "required": true 
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Enter your Heroku app name to be able to control vars",
+      "value": "",
+      "required": true 
+    },
+    "OWNER_NUMBER": {
+      "description": "Enter your number eg, 2547xxxxxxx",
+      "value": "255712443622",
+      "required": true 
+    },
+   "STATUS_REACT_EMOJIS": {
+      "description": "Enter your auto like status emojis",
+      "value": "💚,🚀,🌎,✅",
+      "required": false 
+    },
+    "AUTO_REACT": {
+      "description": "Enter your auto react messages",
+      "value": "no",
+      "required": false 
+    },
+   "AUTO_REACT_STATUS": {
+      "description": "Enter yes for your bot to auto like status",
+      "value": "yes",
+      "required": false 
+    },
+    "OWNER_NAME": {
+      "description": "Owner name",
+      "value": "cklamzy",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "Your session ID",
+      "value": "BWM-XMD;;;H4sIAAAAAAAAA61U2Y7iRhT9l3oFDd43qaXxChjMTgOO8lDYZVPgjXIZbI/498h0d6alJJOOFD+Vazn3nHvPvT9AluMSTVADtB+gIPgGKeqWtCkQ0IBRRREioA9CSCHQwNa43cXl+pK7wnER91aS7MXhMBRlvGiodzu1W2Wp38cbc1S+gEcfFNUxwcEvAAVFiaC+h34SRuNWkf2BVebMeesFg/ry6ly5wsgDasZY917Ao0OEmOAstosTShGByQQ1C4jJ1+gjd57Xji+zs+tUiUJrpF6cDbN8zepZvcxrbsSTta2PMmPPfJH+tRlO70Hk5ekJboIBw2PvyAxnC2fu25PTfWtLvbl/nU93+hv9EscZCschyiimzZfz3vOW14Mltiv3fHTRdHieX0OUOm5enuuQctNzcHZP9LTTn3G+QHwrs712ROVTdLGx35bykLCwmDBKOM/reoYHu4Da9lDF+PCZ+IJ8eOXyX/K+HorLobUhxSIdbsNZb7KG4R76yt4Wp3WvMlfcZh/xljfcLb9G3yhXW/1sSSve2FeNeuFGC2MvH9Wxa18OlpxJyfa8H5PBbXv/SR/SivyKJTnA3dzZRLrF6T1rdKoRtZyD78WvdSDvlba42HamqjoqNpYxEd3JYPQ6dm5mvZcnPOd6s8NqSwQvkwSbKEGEwxBezPjlqeiCmnEINPbRBwTFuKQEUpxnzz2B6QMY3tYoIIg+0wt6S0bsCfEIx8ie534r57ttcrxt7kzlvWLBXTSNmpmvxDeCF9AHBckDVJYoHOGS5qTxUFnCGJVA++1ZqU40QWlOkYtDoAFOFGWWEwRe4rjv5bf7CdISFsW3DFHQBxHJUw8BjZIK9cHzgWOorMoLNmcbhiKZjmgzHMcJjG7wjCVaTCcxfQu6wSkqKUwLoLGyyHACr8rio///8NAth5cYxTIlxWQ5lrUMk5NEUTAc2eE5WfgXHvLj9z7IUE3ffNxln2f7IMKkpNusKpIchh8m/ziEQZBXGV03WWB2C0SA9mkbUYqzuOyUVRkkwQnfkNnpAFoEkxL9WXBEUPih5X2ImXnY+VAyOHbIKQbouHdAf8mNpv41OxnsLoMVykocgD5Inq9UjlV4kWMklhMYVVO/d9uPP+l26CGiECcl0IA5mxTXaGnaizXTlOPhUB/Huhnr4Ke8j7Z5s+VlZlqLOrHU0HZmZ2nPpwt7dD5P/awRzXaNRUZQo/WeGbXbl78BARpg2mGdHCj1ZsKMN0TozDi0sVH8OuBv7nB3mQZ3HR1kHx9OOKv03WptH2DbJnrpzWhxl9dt5F5uUei2ymR9z1lpkIbm/aWLFqIbDtDnYNXaMGYC4eFqIFTc1sX5QGcmpxUsPPvKGJGNR1Mrc4k1cY9hmlhO6Ify5eSbOLrnnDSKxPA6Cc5tw49SaV7wNGVFY/nW0M+BkrwPcvzeavj5G2H0nIvvFfq3Qr7x7uzGPPqfIN4H7T9NQN9axq3iLwf7lbE59BJVPNeGIDScr1TLksmrcL7YM4lqKCx4dL4vEkijnKRAA2V6hKAPSF515h1nUf6LSKYxHn+oTmBJ9Z8N8Tc9JolvtxYkL0awPAENZClvHDtzN3pRrCmkH+0F9O4bOzvw+AO/oILCiQgAAA==",
+      "required": true
+    },    
+    "STARTING_BOT_MESSAGE": {
+      "description": "Enable starting message (yes/no)",
+      "value": "yes",
+      "required": true
+    },
+    "PRESENCE": {
+      "description": "Presence mode: 1=online, 2=typing, 3=recording",
+      "value": "2",
+      "required": false
+    },
+    "ANTIDELETE_SENT_INBOX": {
+      "description": "Enable anti-delete to be sent inbox (yes/no)",
+      "value": "no",
+      "required": false
+    },
+   "ANTIDELETE_RECOVER_CONVENTION": {
+      "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
+      "value": "no",
+      "required": false
+    },	  
+    "GROUPANTILINK": {
+      "description": "Enable anti-link in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "CHATBOT": {
+      "description": "Enable text chatbot (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "WELCOME_MESSAGE": {
+      "description": "Enable welcoming message in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "GOODBYE_MESSAGE": {
+      "description": "Enable  goodbye in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "AUDIO_CHATBOT": {
+      "description": "Enable audio chatbot (yes/no)",
+      "value": "no",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
